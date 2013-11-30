@@ -6,10 +6,18 @@
   "keywords": ["midi"],
   "main": "index.js",
   "scripts": [
-    "index.js"
+    "index.js",
+    "lib/input.js",
+    "lib/output.js",
+    "lib/channel.js",
+    "lib/messages.js",
+    "lib/note.js",
+    "lib/port.js"
   ],
   "local": [],
   "dependencies": {
+    "component/emitter": "*",
+    "component/type": "*"
   },
   "development": {
     "component/assert": "*"
